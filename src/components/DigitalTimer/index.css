@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.timer-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timer-ellipse {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.inside-timer {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-pause-reset {
+  display: flex;
+  align-items: center;
+}
+
+.play-icon {
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.start-button {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.reset-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.minus-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minus-button {
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+}
+
+.time-limit {
+  width: 40px;
+  background-color: #00d9f5;
+  border-radius: 6px;
+  text-align: center;
+}
